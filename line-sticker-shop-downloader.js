@@ -2,7 +2,7 @@
 // @name         Line sticker shop downloader
 // @name:zh-TW   Line 貼圖下載器
 // @namespace    https://github.com/letter5j/Line-sticker-shop-downloader.git
-// @version      0.1
+// @version      0.2
 // @description  one click to download the sticker
 // @description:zh-TW  一鍵下載整頁貼圖
 // @author       Log
