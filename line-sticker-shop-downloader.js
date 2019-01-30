@@ -7,6 +7,7 @@
 // @description:zh-TW  一鍵下載整頁貼圖
 // @author       Log
 // @match        https://store.line.me/stickershop/product/*
+// @match        https://store.line.me/emojishop/product/*
 // @grant        none
 // @run-at       document-end
 // @require      https://cdn.jsdelivr.net/npm/jszip@3.1.5/dist/jszip.min.js
@@ -60,8 +61,14 @@
 
     for (let i = 0; i < list.length; i++) {
         let url = window.getComputedStyle(list[i]).getPropertyValue("background-image").slice(4, -1).replace(/["']/g, "")
-        url = url.split(";")[0]
-        let stickID = url.split("/")[6]
+        let stickID
+        if(window.location.href.includes("stickershop")) {
+            url = url.split(";")[0]
+            stickID = url.split("/")[6]
+        }   else {
+            stickID = url.split("/")[8].split(".png")[0]
+        }
+        
         // you can do
         fetch(url)
             .then(response => response.blob())
@@ -71,6 +78,5 @@
             })
 
     }
-
 
 })();

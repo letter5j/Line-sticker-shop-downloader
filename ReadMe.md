@@ -6,3 +6,11 @@ Used for downloading the stickers on the Line website.
 
  - add a download button on the page 
  - compress all stickers with zip and save to your disk
+
+
+Installation:
+
+
+
+![1.jpg](https://i.loli.net/2019/01/31/5c520b0c2ab29.jpg)
+![2.jpg](https://i.loli.net/2019/01/31/5c520b0c3ae25.jpg)
