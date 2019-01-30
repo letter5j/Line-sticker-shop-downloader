@@ -1,16 +1,19 @@
 // ==UserScript==
 // @name         Line sticker shop downloader
+// @name:zh-TW   Line 貼圖下載器
 // @namespace    https://github.com/letter5j/Line-sticker-shop-downloader.git
 // @version      0.1
 // @description  one click to download the sticker
+// @description:zh-TW  一鍵下載整頁貼圖
 // @author       Log
 // @match        https://store.line.me/stickershop/product/*
 // @grant        none
 // @run-at       document-end
+// @require      https://cdn.jsdelivr.net/npm/jszip@3.1.5/dist/jszip.min.js
 // @create       2019-01-31
 // @copyright    Log
 // @license      MIT License
-// @require      https://cdn.jsdelivr.net/npm/jszip@3.1.5/dist/jszip.min.js
+// @supportURL   https://github.com/letter5j/Line-sticker-shop-downloader/issues
 // @contributionURL https://paypal.me/letter5j
 // @contributionAmount 1
 // ==/UserScript==
