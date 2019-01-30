@@ -8,7 +8,9 @@ Used for downloading the stickers on the Line website.
  - compress all stickers with zip and save to your disk
 
 
-Installation:
+**Installation:**
+    Install tempermonkey or other same function extension
+    Install [the script](https://greasyfork.org/zh-TW/scripts/377292-line-sticker-shop-downloader)
 
 
 
